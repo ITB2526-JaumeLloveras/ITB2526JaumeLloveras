@@ -4,9 +4,9 @@ from datetime import date
 avui = date.today ()
 print(f"Avui estem a {avui}")
 naixement=int(input(f"Perfecte {nom} ara diga'm l'any que vas neixer"))
-any=(avui.year)
-mes=(avui.month)
-dia=(avui.day)
+any=avui.year
+mes=avui.month
+dia=avui.day
 if any-naixement>18:
     print("Molt Bé ets major d'edat")
     edat= any-naixement
